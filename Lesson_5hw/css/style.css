@@ -1,0 +1,138 @@
+/* ?================== Шрифты ====================== */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz@10..72&display=swap');
+
+@font-face {
+	font-family: "CMUTypewriter";
+	src: url("../fonts/CMUTypewriter-Regular.woff2") format("woff2"), url("../fonts/CMUTypewriter-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CMUTypewriter";
+	src: url("../fonts/CMUTypewriter-Italic.woff2") format("woff2"), url("../fonts/CMUTypewriter-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+/* ?================================================ */
+body {
+	font-family: "Nunito Sans";
+}
+div {
+	margin-bottom: 20px;
+}
+p {
+	margin-bottom: 5px;
+}
+h1 {
+	font-weight: 900;
+	font-size: 50px;
+}
+h3 {
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.cmu-regular {
+	font-family: "CMUTypewriter";
+	font-weight: 400;
+}
+.cmu-italic {
+	font-family: "CMUTypewriter";
+	font-weight: 400;
+	font-style: italic;
+}
+.pt-regular {
+	font-family: "PT Serif";
+	font-weight: 400;
+}
+.pt-bold {
+	font-family: "PT Serif";
+	font-weight: 700;
+}
+.serif {
+	font-family: "PT Serif";
+	font-weight: 400;
+}
+.sans-serif {
+	font-family: "Oswald";
+}
+.cursive {
+	font-family: "Tangerine";
+}
+.fantasy {
+	font-family: "Eater";
+}
+.monospace {
+	font-family: "Big Shoulders Stencil";
+}
+.color {
+	color: blue;
+}
+.text-align__center {
+	text-align: center;
+}
+.text-align__right {
+	text-align: right;
+}
+.text-align__justify {
+	text-align: justify;
+}
+.text-decoration__line-throught {
+	text-decoration: line-through;
+}
+.text-decoration__overline {
+	text-decoration: overline;
+}
+.text-decoration__underline {
+	text-decoration: underline;
+}
+.text-shadow {
+	text-shadow: 2px 2px 3px red;
+}
+.text-transform__capitalize {
+	text-transform: capitalize;
+}
+.text-transform__lowercase {
+	text-transform: lowercase;
+}
+.text-transform__uppercase {
+	text-transform: uppercase;
+}
+.line-height {
+	line-height: 2;
+}
+.text-indent {
+	text-indent: 20px;
+}
+.leter-spacing {
+	letter-spacing: 20px;
+}
+.white-space {
+	white-space: nowrap;
+	width: 1500px;
+}
+.word-spacing {
+	word-spacing: 20px;
+}
+.block-padding {
+	background-color: aqua;
+	padding: 10px 20px 30px 40px;
+}
+.block-margin {
+	background-color: pink;
+	margin: 10px 20px 30px 40px;
+}
+.block-width {
+	background-color: blanchedalmond;
+	width: 300px;
+}
+li a {
+	color: green;
+}
