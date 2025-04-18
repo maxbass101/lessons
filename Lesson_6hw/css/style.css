@@ -144,6 +144,9 @@ h3 {
 	max-width: 810px;
 	margin-bottom: 60px;
 }
+.article__image img {
+	max-width: 810px;
+}
 .article__text-bold {
 	color: #1e212c;
 	font-weight: 700;
