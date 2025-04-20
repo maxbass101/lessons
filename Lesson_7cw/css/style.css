@@ -1,0 +1,40 @@
+.container {
+}
+.about-us {
+	background-color: #77608d;
+}
+.about-us__container {
+	background-color: #794f45;
+}
+.advantages {
+	background-color: #7a956b;
+}
+.advantages__container {
+	background-color: #794f45;
+}
+
+/* селектор артибута. Условие (*) */
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+
+/* ?================= Свойство backgraund ====================== */
+
+.block__container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.block__background {
+	padding: 15px;
+
+	/* отдельноые свойства backgraund 
+	   background-color: - определяет цвет фона элемента
+		background-image: - устанавливает фоновое изображение или градиент фона элемента*/
+	background-color: green;
+	background-image: url("../img/sens.jpg");
+
+	/* универсальное свойство backgraund */
+	/* background: green; */
+}
