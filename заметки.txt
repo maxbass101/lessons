@@ -1,0 +1,58 @@
+shift + alt + F - форматирование
+
+eCssTractor - with BEM - ALT + 1
+eCssTractor - css      - ALT + 2
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+<html lang="zxx">
+
+=========================== нумерованный список =====================
+ul li::before {
+	background: url('../img/icons/check.svg') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+ol {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	counter-reset: item;
+}
+ol li {
+
+}
+ol li::before {
+	counter-increment: item;
+	content: counter(item) ". ";
+	display: inline-block;
+	margin-right: 5px;
+}
+ol li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+Запобіжнік - min-height: 30px;
+
+======================================================================
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.list__item::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	background: url('../img/check.svg') 0 0 / 100% no-repeat;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
