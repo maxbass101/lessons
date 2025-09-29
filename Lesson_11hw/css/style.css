@@ -1,0 +1,37 @@
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.car {
+	background: url('../img/vavilon_bg.jpg') 0 0/cover no-repeat;
+	width: 100%;
+	height: 900px;
+}
+[class*="__container"] {
+	max-width: 596px;
+	margin: 0 auto;
+}
+.items-car {
+	width: 596px;
+	height: 244px;
+	position: absolute;
+	bottom: 50px;
+
+}
+.items-car__wheel_2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 11px;
+	left: 77px;
+}
+.items-car__wheel_1 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 11px;
+	right: 57px;
+}
