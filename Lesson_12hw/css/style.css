@@ -1,0 +1,170 @@
+
+@font-face {
+	font-family: "MoulinRouge";
+	src: url("../fonts/MoulinRouge.woff2") format("woff2"), url("../fonts/MoulinRouge.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+body {
+	color: #fff;
+	background-color: rgb(60, 60, 60);
+	font-family: Arial, Helvetica, sans-serif;
+}
+[class*="__container"] {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.title {
+	font-family: "MoulinRouge";
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.5;
+}
+.practice {
+	padding: 20px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+}
+.practice:not(:last-child) {
+	margin-bottom: 15px;
+}
+.practice__text {
+	line-height: 1.3;
+}
+.practice__text:not(:last-child) {
+	margin-bottom: 15px;
+}
+.practice__body {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(102, 102, 102, 0.8);
+}
+.practice__item {
+	width: 200px;
+	height: 200px;
+	background-color: #00ff00;
+}
+.practice__body:not(:last-child) {
+	margin-bottom: 15px;
+}
+.practice__item_translate:hover {
+	transition: all 0.3s ease 0s;
+	transform: translate(15px, 15px);
+}
+.practice__item_scale {
+	transform: scale(0.7);
+}
+.practice__item_rotate {
+	transform: rotate(5deg);
+}
+.practice__item_skew {
+	transform: skew(-10deg, 3deg);
+}
+.practice__item_transform-origin {
+	transform-origin: 0 0;
+	transform: rotate(10deg);
+}
+.practice__body_perspective {
+	perspective: 300px;
+	perspective-origin:center;
+}
+.practice__item_perspective {
+	transform: rotateX(50deg);
+}
+
+.practice_car {
+	position: relative;
+	height: 500px;
+	background: url("../img/vavilon\ 1.jpg") 0 0 / cover no-repeat;
+}
+.car {
+	position: absolute;
+	width: 596px;
+	height: 244px;
+	bottom: 0;
+	left: 70px;
+}
+.car__object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.car__wheel_1 {
+	left: 78px;
+	bottom: 11.91px;
+}
+.car__wheel_2 {
+	right: 55px;
+	bottom: 11.91px;
+}
+.car__wheel {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 3;
+	transition: all 0.3s ease 0s;
+}
+.car__wheel_1 {
+	left: 78px;
+	bottom: 11.91px;
+}
+.car__wheel::before {
+	content: '';
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/wheel.svg') 0 0  no-repeat;
+	transition: all 0.3s ease 0s;
+}
+.car__wheel:hover {
+	transform: rotate(360deg);
+}
+.car__window {
+}
+.window-car {
+	position: absolute;
+	left: 32.96px;
+	top: 17px;
+	width: 132px;
+	height: 57px;
+}
+.window-car__shadow {
+}
+.window-car__margo {
+	position: absolute;
+	top: 9px;
+	left: 40px;
+	opacity: 0.5;
+	transition: all 0.3s ease 0s;
+}
+.window-car__glass {
+	position: absolute;
+	left: 4px;
+	top: 2px;
+	width: 132px;
+	height: 57px;
+}
+.window-car__glass::before {
+	content: '';
+	width: 132px;
+	height: 52px;
+	display: inline-block;
+	background: url('../img/glass.svg') 0 0 no-repeat;
+	transition: all 0.3s ease 0s;
+}
+.car:hover .window-car__glass::before {
+	transform: translateY(50px);
+	position: relative;
+	
+}
+.car:hover .window-car__margo {
+	opacity: 1;
+}
