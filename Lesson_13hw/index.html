@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_13hw</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<h1>Домашка №13</h1>
+			<div class="properties">
+				<div class="properties__container">
+					<h3>transition</h3>
+					<div class="properties__block">
+						<p class="properties__text">
+							<mark>transition-duration</mark> - Визначає проміжок часу,
+							протягом якого має здійснюватись перехід.
+							Власне - тут ми вказуємо час за яке
+							одне значення якості переходить (анімується)
+							в інше. Властивість не успадковується.
+						</p>
+						<div class="properties__item properties__item_transition-duration"></div>
+					</div>
+					<div class="properties__block">
+						<p class="properties__text">
+							<mark>transition-property</mark> - Містить назву CSS-властивостей,
+							до яких буде використано ефект переходу.
+							Значення властивості може містити як одну
+							властивість, так і список властивостей
+							через кому. Властивість не успадковується.
+						</p>
+						<div class="properties__item properties__item_transition-property"></div>
+					</div>
+					<div class="properties__block">
+						<p class="properties__text">
+							<mark>transition-delay</mark> - Затримка виконання переходу. Дозволяє зробити
+							так, щоб зміна якості відбувалася не миттєво,
+							а з деякою затримкою. Час затримки переходу
+							вказується у секундах або мілісекундах.
+							Властивість не успадковується.
+						</p>
+						<div class="properties__item properties__item_transition-delay"></div>
+					</div>
+					<div class="properties__block">
+						<p class="properties__text">
+							<mark>transition-timing-function</mark> - Задає стиль нашого переходу,
+							тобто якийсь сценарій,
+							за яким здійсняться анімація.
+						</p>
+						<div class="properties__item properties__item_transition-timing-function"></div>
+					</div>
+					<div class="properties__block">
+						<p class="properties__text">
+							<mark>Універсальний запис transition</mark> -
+							<code>transition: all 1s cubic-bezier( 0.68, -0.55, 0.265, 1.55 ) 0.5s;</code>
+						</p>
+						<div class="properties__item properties__item_transition-universal"></div>
+					</div>
+				</div>
+			</div>
+			<div class="animation">
+				<div class="animation__container">
+					<h3>animation & @keyframes</h3>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-name</mark> Визначає список анімацій (ключових кадрів),
+							що застосовуються до елемента. Можна вказати через кому.
+							Причому пріоритет останній запис.
+						</p>
+						<p class="animation__text">
+							<mark>animation-duration</mark> Відповідає за тривалість анімації.
+						</p>
+						<div class="animation__item"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-timing-function</mark>
+							Встановлює сценарій розвитку анімації між ключовими кадрами.
+						</p>
+						<div class="animation__item animation__item_animation-timing-function"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-iteration-count</mark>
+							Відповідає за повтор відтворення ключових кадрів.
+						</p>
+						<div class="animation__item animation__item_animation-iteration-count"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-direction</mark>
+							Визначає напрямок та тип відтворення ключових кадрів.
+						</p>
+						<div class="animation__item animation__item_animation-direction"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-play-state</mark>
+							Дозволяє запускати або зупиняти анімацію за подією.
+						</p>
+						<div class="animation__item animation__item_animation-play-state"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>animation-delay</mark>
+							Відповідає за затримку перед відтворенням.
+						</p>
+						<div class="animation__item animation__item_animation-delay"></div>
+					</div>
+					<div class="animation__block">
+						<p class="animation__text">
+							<mark>Універсальний запис animation</mark> -
+							<code>animation: translate-block 1s linear normal running 0s forwards;</code>
+						</p>
+						<div class="animation__item animation__item_animation-universal"></div>
+					</div>
+				</div>
+			</div>
+			<div class="car">
+				<div class="car__container">
+					<div class="car__section">
+						<h4 class="car__title">Все буде чітко!!!</h4>
+						<div class="car__sun">
+							<img src="img/sun.png" alt="">
+						</div>
+						<div class="car__clouds clouds-car">
+							<div class="clouds-car__item">
+								<img src="img/cloud.png" alt="">
+							</div>
+							<div class="clouds-car__item">
+								<img src="img/cloud.png" alt="">
+							</div>
+							<div class="clouds-car__item">
+								<img src="img/cloud.png" alt="">
+							</div>
+						</div>
+						<div class="car__body body-car">
+							<div class="body-car__frame">
+								<img src="img/car.svg" alt="">
+							</div>
+							<div class="body-car__window window-car">
+								<div class="window-car__bacground">
+									<img src="img/window_bg.svg" alt="">
+								</div>
+								<div class="window-car__margo">
+									<img src="img/margo.png" alt="">
+								</div>
+								<div class="window-car__glass"></div>
+							</div>
+							<div class="body-car__wheel body-car__wheel-1"></div>
+							<div class="body-car__wheel body-car__wheel-2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text">
+				<div class="text__container">
+					<h3>Поява тексту при наведенні</h3>
+					<div class="text__block">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempora in modi ullam. Perferendis
+							odit repellat porro, earum libero debitis et nihil quisquam hic corrupti nesciunt quaerat quasi
+							magnam? Dolorum.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="title">
+				<div class="title__container">
+					<h3>Анімація появи заголовку та тексту, ротація об'екту</h3>
+					<div class="title__block">
+						<h5>Заголовок</h5>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eveniet eaque distinctio animi
+							voluptatibus deleniti laborum sequi soluta delectus facere quia dolor, accusamus inventore
+							voluptate aliquam fuga eos in magnam.
+						</p>
+						<div class="title__rotation">
+							<img src="img/vinyl_records 1.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>

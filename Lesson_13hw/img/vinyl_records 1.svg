@@ -1,0 +1,37 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_43_2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M202.714 19C100.594 19 17.7143 101.88 17.7143 204C17.7143 306.12 100.594 389 202.714 389C304.834 389 387.714 306.12 387.714 204C387.714 101.88 304.834 19 202.714 19ZM202.714 198.812C205.581 198.812 207.902 201.134 207.902 204C207.902 206.866 205.581 209.187 202.714 209.188C199.848 209.188 197.527 206.866 197.527 204C197.527 201.134 199.848 198.813 202.714 198.812Z" fill="black" fill-opacity="0.508571"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M200 15C97.88 15 15 97.88 15 200C15 302.12 97.88 385 200 385C302.12 385 385 302.12 385 200C385 97.88 302.12 15 200 15ZM200 194.812C202.866 194.812 205.187 197.134 205.188 200C205.188 202.866 202.866 205.187 200 205.188C197.134 205.188 194.813 202.866 194.812 200C194.812 197.134 197.134 194.813 200 194.812Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M200 132.656C162.841 132.656 132.656 162.841 132.656 200C132.656 237.159 162.841 267.344 200 267.344C237.159 267.344 267.344 237.159 267.344 200C267.344 162.841 237.159 132.656 200 132.656ZM200 195.562C202.454 195.562 204.438 197.546 204.438 200C204.438 202.454 202.454 204.438 200 204.438C197.546 204.438 195.562 202.454 195.562 200C195.562 197.546 197.546 195.562 200 195.562Z" fill="#333333"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M200 15C97.88 15 15 97.88 15 200C15 302.12 97.88 385 200 385C302.12 385 385 302.12 385 200C385 97.88 302.12 15 200 15ZM200 18.5938C300.149 18.5938 381.438 99.8514 381.438 200C381.438 300.149 300.149 381.438 200 381.438C99.8514 381.437 18.5625 300.149 18.5625 200C18.5625 99.8514 99.8514 18.5938 200 18.5938Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M293.562 200C293.562 251.651 251.651 293.594 200 293.594V381.438C300.149 381.438 381.438 300.149 381.438 200H293.562Z" fill="url(#paint0_radial_43_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M106.438 200C106.438 148.349 148.349 106.406 200 106.406V18.5625C99.8514 18.5625 18.5625 99.8514 18.5625 200H106.438Z" fill="url(#paint1_radial_43_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M248.68 151.32C221.813 124.453 178.187 124.453 151.32 151.32C124.453 178.187 124.453 221.813 151.32 248.68C178.187 275.547 221.813 275.547 248.68 248.68C275.547 221.813 275.547 178.187 248.68 151.32ZM246.536 153.464C272.22 179.148 272.22 220.852 246.536 246.536C220.852 272.22 179.148 272.22 153.464 246.536C127.779 220.852 127.779 179.148 153.464 153.464C179.148 127.779 220.852 127.779 246.536 153.464Z" fill="url(#paint2_radial_43_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M237.963 162.037C217.01 141.085 182.99 141.085 162.037 162.037C141.085 182.99 141.085 217.01 162.037 237.963C182.99 258.915 217.01 258.915 237.963 237.963C258.915 217.01 258.915 182.99 237.963 162.037ZM203.668 196.332C205.695 198.359 205.695 201.641 203.668 203.668C201.641 205.695 198.359 205.695 196.332 203.668C194.305 201.641 194.305 198.359 196.332 196.332C198.359 194.305 201.641 194.305 203.668 196.332Z" fill="url(#paint3_radial_43_2)"/>
+<path opacity="0.742574" fill-rule="evenodd" clip-rule="evenodd" d="M243.951 156.049C236.889 148.987 228.545 143.995 219.666 141.045L218.429 144.757C226.744 147.522 234.554 152.22 241.167 158.833C249.223 166.889 254.423 176.717 256.767 187.073L260.59 186.211C258.088 175.156 252.553 164.65 243.951 156.049Z" fill="white"/>
+<path opacity="0.742574" fill-rule="evenodd" clip-rule="evenodd" d="M142.614 190.255L138.725 189.592C135.488 208.765 141.263 229.165 156.049 243.951C170.795 258.697 191.125 264.478 210.253 261.297L209.612 257.43C191.687 260.414 172.65 254.984 158.833 241.167C144.981 227.315 139.58 208.22 142.614 190.255Z" fill="white"/>
+<defs>
+<filter id="filter0_f_43_2" x="10.3143" y="11.6" width="384.8" height="384.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3.7" result="effect1_foregroundBlur_43_2"/>
+</filter>
+<radialGradient id="paint0_radial_43_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(381.437 381.437) rotate(-45) scale(113.755 256.591)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_43_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.5625 18.5625) rotate(135) scale(113.755 256.591)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_43_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 200) rotate(90) scale(191.263 56.7189)">
+<stop stop-color="#6C6C6C"/>
+<stop offset="1" stop-color="#3E3E3E"/>
+</radialGradient>
+<radialGradient id="paint3_radial_43_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 200) rotate(90) scale(154.237 53.6875)">
+<stop stop-color="#F7F7F7"/>
+<stop offset="1" stop-color="#E1E1E1"/>
+</radialGradient>
+</defs>
+</svg>
