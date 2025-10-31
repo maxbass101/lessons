@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Lesson_14hw</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">HEADER</header>
+		<main class="page">
+			<div class="page__container">
+				<h3>Властивості FLEX-контейнера</h3>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<span><code>display: flex/inline-flex;</code></span>
+						Визначає flex-контейнер,
+						блоковий або малий залежить від переданого значення.
+						Перетворює всі свої прямі,
+						дочірні елементи у flex-елементи.
+					</div>
+					<div class="page__block page__block_flex">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item">3</div>
+						<div class="block__item">4</div>
+					</div>
+					<div class="page__block page__block_inline-flex">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item">3</div>
+						<div class="block__item">4</div>
+					</div>
+				</div>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<p>
+							<span><code>flex-wrap: wrap/nowrap/wrap-reverse;</code></span>
+							Визначає, чи зможуть flex-елементи переміщатися
+							на наступні рядки, коли перестають поміщатися
+							всередині flex-контейнера.
+						</p>
+						<p>
+							nowrap - (за замовченням) Flex-елементи не можуть
+							переміщатися на наступні рядки flex-контейнера.
+						</p>
+						<div class="page__block">
+							<div class="block__item block__item_wrap">1</div>
+							<div class="block__item block__item_wrap">2</div>
+							<div class="block__item block__item_wrap">3</div>
+							<div class="block__item block__item_wrap">4</div>
+						</div>
+						<p>
+							wrap - Flex-елементи зможуть переміщатися на
+							наступні рядки flex-контейнера.
+						</p>
+						<div class="page__block page__block_wrap">
+							<div class="block__item block__item_wrap">1</div>
+							<div class="block__item block__item_wrap">2</div>
+							<div class="block__item block__item_wrap">3</div>
+							<div class="block__item block__item_wrap">4</div>
+						</div>
+						<p>
+							wrap-reverse - Flex-елементи зможуть переміщатися
+							на наступні рядки flex-контейнера, але у зворотному порядку.
+						</p>
+						<div class="page__block page__block_wrap-reverse">
+							<div class="block__item block__item_wrap">1</div>
+							<div class="block__item block__item_wrap">2</div>
+							<div class="block__item block__item_wrap">3</div>
+							<div class="block__item block__item_wrap">4</div>
+						</div>
+						<p>
+					</div>
+
+
+				</div>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<p>
+							<span><code>justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly;</code></span>
+							Визначає вирівнювання вздовж основної осі
+							(напрямок залежить від значення властивості flex-direction).
+						</p>
+						<p>
+							flex-start - Значення за промовчанням (не потрібно вказувати).
+							Flex-елементи притискаються до початку осі.
+						</p>
+						<div class="page__block page__block_flex-start">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							flex-end - Flex-елементи притискаються вкінець осі.
+						</p>
+						<div class="page__block page__block_flex-end">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							center - Flex-елементи розташовуються в центрі основної осі.
+						</p>
+						<div class="page__block page__block_center">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							space-between - Flex-елементи розміщуються
+							поступово по основній осі.
+							Перший елемент знаходиться на початку осі,
+							останній елемент знаходиться наприкінці осі.
+							Між елементами постійно однаковий простір.
+						</p>
+						<div class="page__block page__block_space-between">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							space-around - Flex-елементи розташовуються рівномірно
+							по основній осі. До кожного flex-елементу
+							додається простір ліворуч і праворуч.
+						</p>
+						<div class="page__block page__block_space-around">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							space-evenly - Flex-елементи розташовуються рівномірно по
+							основній осі з однаковим простором навколо них.
+						</p>
+						<div class="page__block page__block_space-evenly">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<p>
+							<span><code>align-items: stretch/flex-start/flex-end;</code></span>
+							Визначає вирівнювання вздовж поперечної осі
+							(напрямок залежить від значення властивості flex-direction).
+						</p>
+						<p>
+							stretch - Значення за заомовчанням (не потрібно вказувати).
+							Flex-елементи розтягуються на весь розмір поперечної осі
+							flex-контейнера.
+						</p>
+						<div class="page__block page__block_align-stretch">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							flex-start - Flex-елементи притискаються до
+							початку поперечної осі.
+						</p>
+						<div class="page__block page__block_align-flex-start">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							flex-end - Flex-елементи притискаються вкінець поперечної осі.
+						</p>
+						<div class="page__block page__block_align-flex-end">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<p>
+							<span><code>flex-direction: row/column/row-reverse/column-reverse;</code></span>
+							Встановлює основну вісь,
+							таким чином визначає напрямок flex-елементів,
+							розташованих у flex-контейнері.
+						</p>
+						<p>
+							row - Значення за промовчанням (не потрібно вказувати).
+							Основна вісь горизонтальна. Всі flex-елементи
+							розташуються ліворуч по горизонталі.
+						</p>
+						<div class="page__block page__block_direction-row">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							column
+						</p>
+						<div class="page__block page__block_direction-column">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+						<p>
+							row-reverse
+						</p>
+						<div class="page__block page__block_direction-row-reverse">
+							<div class="block__item">1</div>
+							<div class="block__item">2</div>
+							<div class="block__item">3</div>
+							<div class="block__item">4</div>
+						</div>
+					</div>
+					<p>
+						column-reverse
+					</p>
+					<div class="page__block page__block_direction-column-reverse">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item">3</div>
+						<div class="block__item">4</div>
+					</div>
+
+				</div>
+				<h3>Властивості FLEX–елементів</h3>
+				<div class="page__flex-container flex-container">
+					<div class="flex-container__text">
+						<span><code>align-self: center/flex-end/flex-start;</code></span>
+						Перевизначає для конкретного flex-елемента
+						вирівнювання вздовж поперечної осі
+						(напрямок залежить від значення якості flex-direction).
+					</div>
+					<p>
+						flex-start, center, flex-end
+					</p>
+					<div class="page__block page__block_align-self">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item">3</div>
+						<div class="block__item">4</div>
+					</div>
+					<p>
+						<span>flex-grow</span> - 0 заборонено. 1 дозволено. (за замовченням - 0)
+						Визначає можливість елемента збільшуватись
+						у розмірі, при необхідності заповнюючи весь
+						flex-контейнер.
+					</p>
+					<div class="page__block">
+						<div class="block__item">1</div>
+						<div class="block__item block__item_grow1">flex-grow: 1;</div>
+						<div class="block__item">3</div>
+						<div class="block__item">4</div>
+					</div>
+					<p>
+						<span>flex-shrink</span> - 0 заборонено. 1 дозволено. (за замовченням - 1)
+						Визначає можливість елемента зменшуватись
+						у розмірі, при необхідності заповнюючи весь flex-контейєр.
+					</p>
+					<div class="page__block">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item block__item_shrink">flex-shrink: 0;</div>
+						<div class="block__item">4</div>
+					</div>
+					<p>
+						<span>flex-basis</span> - Визначає базовий розмір елемента за умовчанням,
+						до розподілу простору, що залишився.
+						Значення можуть бути у відсотках пікселях тощо.
+						auto - розмір по контенту
+					</p>
+					<div class="page__block">
+						<div class="block__item">1</div>
+						<div class="block__item">2</div>
+						<div class="block__item block__item_basis">flex-basis: 100px;</div>
+						<div class="block__item">4</div>
+					</div>
+				</div>
+				<h3>Фішка</h3>
+				<div class="page__fishka fishka">
+					<div class="fishka__row">
+						<div class="fishka__column">
+							<div class="fishka__item">
+								Колонка №1
+							</div>
+						</div>
+						<div class="fishka__column">
+							<div class="fishka__item">
+								Колонка №2
+							</div>
+						</div>
+						<div class="fishka__column">
+							<div class="fishka__item">
+								Колонка №3
+							</div>
+						</div>
+						<div class="fishka__column">
+							<div class="fishka__item">
+								Колонка №4
+							</div>
+						</div>
+					</div>
+				</div>
+				<h3>Приклад з картками</h3>
+				<div class="page__cards cards">
+					<div class="cards__row">
+						<div class="cards__colunm">
+							<div class="cards__item item-cards">
+								<div class="item-cards__image">
+									<img src="img/margo_2.jpg" alt="">
+								</div>
+								<div class="item-cards__title">
+									Lorem, ipsum dolor.
+								</div>
+								<div class="item-cards__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam nostrum natus hic
+									incidunt quo, omnis rem rerum tenetur nemo.
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ducimus est consectetur enim
+									molestiae hic asperiores nam nulla molestias accusamus, sit quas dicta quia praesentium minus
+									voluptatum nisi at obcaecati!
+								</div>
+								<a href="" class="item-cards__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__colunm">
+							<div class="cards__item item-cards">
+								<div class="item-cards__image">
+									<img src="img/margo_2.jpg" alt="">
+								</div>
+								<div class="item-cards__title">
+									Lorem, ipsum dolor.
+								</div>
+								<div class="item-cards__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam nostrum natus hic
+									incidunt quo, omnis rem rerum tenetur nemo.
+								</div>
+								<a href="" class="item-cards__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__colunm">
+							<div class="cards__item item-cards">
+								<div class="item-cards__image">
+									<img src="img/margo_2.jpg" alt="">
+								</div>
+								<div class="item-cards__title">
+									Lorem, ipsum dolor.
+								</div>
+								<div class="item-cards__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam nostrum natus hic
+									incidunt quo, omnis rem rerum tenetur nemo.
+								</div>
+								<a href="" class="item-cards__button">Button</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">FOOTER</footer>
+	</div>
+</body>
+
+</html>
